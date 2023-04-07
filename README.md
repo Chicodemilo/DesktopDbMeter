@@ -12,6 +12,7 @@ https://www.printables.com/model/445581-desktop-decibel-meter
 https://www.thingiverse.com/thing:5955499
 
 Parts List:
+
 Board v3 ESP8266. Why? Because I had some. Others will work.
 https://www.amazon.com/Aceirmc-Wireless-Internet-Development-Compatible/dp/B0828L4743/ref=sr_1_6?keywords=esp8266+v3&qid=1680825906&s=electronics&sprefix=ESP8266+v3%2Celectronics%2C157&sr=1-6
 
