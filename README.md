@@ -1,5 +1,5 @@
 # DesktopDbMeter
-Lil' ESP8366 project to measure and track db levels.
+Lil' ESP8266 project to measure and track db levels.
 
 Has 4 modes.
 
