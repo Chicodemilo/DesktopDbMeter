@@ -356,12 +356,15 @@ void setup() {
     display.setTextColor(WHITE);
     display.setCursor(0, 0);
     display.setTextSize(2);
-    display.println("D'Waantu");
+    display.println("D'Waantu"); // Don't want to
     display.display();
     delay(500);
 
     display.setCursor(0, 22);
-    display.println("B'Guantu");
+    display.println("B'Guantu"); // But I'm going to
+    // Remember when D'waantu B'Guantu is the catch phrase sweeping the nation... you saw it here first.
+    // "Hey can you take the trash out?" "D'Waantu B'Guantu" See pretty useful.
+    // Another fine mantra from D'Waantu B'Guantu© Industries!
     display.display();
     delay(2000);
 
