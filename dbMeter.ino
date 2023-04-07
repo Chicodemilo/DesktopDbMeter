@@ -169,8 +169,8 @@ void drawPixelBurst(int numPixels) {
 
 // Can't get this one working right - take a crack if you wish.
 // Issuse 1: It only makes the amount of drops for the inital DB reading - then it doesn't update.
-// Issue 2: It can't break out of the loop. It stays in mode5() when it gets into it. Or it just jumps over the mode.
-// Whatever.
+// Issue 2: Either it can't break out of the loop (It stays in mode5() when it gets into it.) Or it just jumps over the mode.
+// Whatever. Moving on.
 
 
 #define RAIN_DROP_WIDTH 2
@@ -325,7 +325,7 @@ void updateVisualization() {
       }
 
       if (displayMode == 5) {
-//          display.clearDisplay();
+//  display.clearDisplay();
 //  display.setCursor(0,0);
 //  display.setTextSize(1);
 //  display.setTextColor(WHITE);
@@ -335,7 +335,7 @@ void updateVisualization() {
 //  display.println(displayMode);
 //  display.display();
           drawRaindrops(numRainDrops);
-          displayMode = 1; // add this line to reset to Mode1 after exiting from Mode5
+          displayMode = 1; // Breaking out because I can't get it working
       } else {
           updateVisualization();
       }
@@ -399,7 +399,7 @@ void loop() {
 
     // Ok this is a total hack & I'm sorry about that
     // Basically I couldn't get close enough adjusting the variables at the top.
-    // Either the lows were good but the highs were off or oppsi-doopsy .
+    // Either the lows were good but the highs were off or oppsi-doopsy.
     // So fuck it... make them what matches your chosen DB meter - this got me close.
     switch ((int)new_db) 
         {
